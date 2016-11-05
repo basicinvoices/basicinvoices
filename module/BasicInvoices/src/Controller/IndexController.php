@@ -1,8 +1,8 @@
 <?php
 /**
- * @link      http://github.com/zendframework/ZendSkeletonBasicInvoices for the canonical source repository
- * @copyright Copyright (c) 2005-2016 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd New BSD License
+ * @link      http://github.com/basicinvoices/basicinvoices
+ * @copyright Copyright (c) 2016 Juan Pedro Gonzalez Gutierrez
+ * @license   https://www.gnu.org/licenses/gpl-3.0.txt GPL v3 License
  */
 
 namespace BasicInvoices\Controller;
