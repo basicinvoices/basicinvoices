@@ -6,6 +6,7 @@
     "require": {
         "php": "^5.6 || ^7.0",
         "basicinvoices/basicinvoices-modulemanager": "dev-master",
+        "basicinvoices/basicinvoices-option": "dev-master",
         "zendframework/zend-mvc": "^3.0.3",
         "zendframework/zend-mvc-i18n": "^1.0.0",
         "zendframework/zend-cache": "^2.7.1",

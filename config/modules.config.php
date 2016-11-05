@@ -16,5 +16,6 @@ return [
     'Zend\I18n',
     'Zend\Mvc\I18n',
     'BasicInvoices\ModuleManager',
+    'BasicInvoices\Option',
     'BasicInvoices',
 ];
