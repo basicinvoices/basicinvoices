@@ -1,0 +1,26 @@
+{
+    "name": "basicinvoices/basicinvoices",
+    "description": "Invoicing Application",
+    "type": "project",
+    "license": "GPL-3.0",
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "basicinvoices/basicinvoices-modulemanager": "dev-master",
+        "zendframework/zend-mvc": "^3.0.3",
+        "zendframework/zend-mvc-i18n": "^1.0.0",
+        "zendframework/zend-cache": "^2.7.1",
+        "zendframework/zend-db": "^2.8.2"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BasicInvoices\\": "module/BasicInvoices/src/"
+        }
+    },
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    }
+}
