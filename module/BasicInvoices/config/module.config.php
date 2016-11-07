@@ -24,16 +24,6 @@ return [
                     ],
                 ],
             ],
-            'BasicInvoices' => [
-                'type'    => Segment::class,
-                'options' => [
-                    'route'    => '/BasicInvoices[/:action]',
-                    'defaults' => [
-                        'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
-                    ],
-                ],
-            ],
         ],
     ],
     'controllers' => [

@@ -15,7 +15,9 @@ return [
     'Zend\Validator',
     'Zend\I18n',
     'Zend\Mvc\I18n',
+    'Zend\Db',
     'BasicInvoices\ModuleManager',
     'BasicInvoices\Option',
+    'BasicInvoices\Tax',
     'BasicInvoices',
 ];
