@@ -1,6 +1,9 @@
-[submodule "module/tax"]
+[submodule "basicinvoices-tax"]
 	path = module/tax
 	url = https://github.com/basicinvoices/basicinvoices-tax.git
 [submodule "basicinvoices-iso"]
-	path = basicinvoices-iso
+	path = module/Iso
 	url = https://github.com/basicinvoices/basicinvoices-iso.git
+[submodule "basicinvoices-customer"]
+	path = module/Customer
+	url = https://github.com/basicinvoices/basicinvoices-customer.git
