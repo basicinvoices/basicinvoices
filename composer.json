@@ -7,10 +7,15 @@
         "php": "^5.6 || ^7.0",
         "basicinvoices/basicinvoices-modulemanager": "dev-master",
         "basicinvoices/basicinvoices-option": "dev-master",
+        "php-components/isocodes": "dev-master",
         "zendframework/zend-mvc": "^3.0.3",
         "zendframework/zend-mvc-i18n": "^1.0.0",
         "zendframework/zend-cache": "^2.7.1",
-        "zendframework/zend-db": "^2.8.2"
+        "zendframework/zend-db": "^2.8.2",
+        "zendframework/zend-form": "^2.9.2",
+        "zendframework/zend-math": "^3.0.0",
+        "zendframework/zend-session": "^2.7.3",
+        "zendframework/zend-validator": "^2.8.1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.3.1"
@@ -18,7 +23,9 @@
     "autoload": {
         "psr-4": {
             "BasicInvoices\\": "module/BasicInvoices/src/",
-            "BasicInvoices\\Tax\\": "module/tax/src/"
+            "BasicInvoices\\Tax\\": "module/tax/src/",
+            "BasicInvoices\\Customer\\": "module/Customer/src/",
+            "BasicInvoices\\Iso\\": "module/Iso/src/"
         }
     },
     "scripts": {

@@ -16,8 +16,11 @@ return [
     'Zend\I18n',
     'Zend\Mvc\I18n',
     'Zend\Db',
+    'Zend\Form',
     'BasicInvoices\ModuleManager',
     'BasicInvoices\Option',
     'BasicInvoices\Tax',
+    'BasicInvoices\Customer',
+    'BasicInvoices\Iso',
     'BasicInvoices',
 ];
